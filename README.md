@@ -1,2 +1,91 @@
 # georgidimitrov
-portfolio
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Георги Димитров – Портфолио</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .section {
+      margin-bottom: 2.5rem;
+    }
+    .links a {
+      display: inline-block;
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #007acc;
+    }
+    .skills ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .skills li {
+      background: #ddd;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Георги Димитров</h1>
+    <p>Създател на сайтове, онлайн предприемач, креативен дизайнер</p>
+  </header>
+
+  <div class="container">
+    <section class="section links">
+      <h2>Мои проекти</h2>
+      <p>
+        <a href="https://sellart.bg" target="_blank">🎨 SellArt.bg</a><br>
+        <a href="https://perposter.eu" target="_blank">🖼️ PerPoster.eu</a>
+      </p>
+    </section>
+
+    <section class="section skills">
+      <h2>Умения</h2>
+      <ul>
+        <li>Създаване и поддръжка на уебсайтове (HTML, CSS, Firebase)</li>
+        <li>Онлайн продажби и маркетинг</li>
+        <li>Графичен и продуктов дизайн</li>
+        <li>Работа със CMS като WordPress и Elementor</li>
+        <li>Обслужване на клиенти и управление на инвентар</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Георги Димитров | Всички права запазени
+  </footer>
+
+</body>
+</html>
+
